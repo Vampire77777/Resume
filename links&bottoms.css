@@ -1,0 +1,50 @@
+a {
+    font-weight: 600;
+    padding: 4px 7px;
+    border-radius: 5px;
+    background-color: #4b789f;
+    color: rgb(222, 230, 247);
+    text-decoration: none;
+}
+
+.soc-net ul{
+    list-style: none;
+    display: flex;
+}
+
+.soc-net li {
+    margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+    .soc-net {
+        display:inline-block;
+    }
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    background-color: #4566fa;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #2e2e2eb7;    
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #5e5e5eb7;
+    cursor: pointer;
+}
+.btn:active {
+    color: #fac779;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+}
